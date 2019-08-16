@@ -1,0 +1,67 @@
+.cart-item{
+    border-bottom: 2px solid #0062FF;
+}
+
+.cart-item input{
+    width:100%;
+}
+
+.cart-item h4{
+    color: #0062FF;
+}
+
+.card-cart{
+    background: #f3f3f3;
+}
+
+.card-cart .ibm-btn-pri{
+    width:100%;
+    text-align: left;
+    margin-bottom: 15px;
+    font-weight: 600;
+    background-color: #0062FF;
+    border-color: #0062FF;
+    outline-color: #0062FF;
+}
+
+.card-cart .ibm-btn-sec{
+    width:100%;
+    text-align: left;
+    background-color:none;
+    font-weight: 600;
+    color: #0062FF;
+    border-color: #0062FF;
+    outline-color: #0062FF;
+}
+
+.card-cart .ibm-btn-sec:hover{
+    color: #fff !important;
+    border-color: #3D3D3D;
+    outline-color: #3D3D3D;
+}
+
+.remove-item-btn{
+    color:#0062ff;
+    border:none;
+    outline:none;
+    background:none;
+    cursor: pointer;
+}
+
+.remove-item-btn:hover{
+    color:#0C26E8;
+}
+
+@media only screen and (max-width: 671px) {
+    .remove-item-btn{
+        width:200px;
+        height: 70px;
+        background-color:none;
+        font-weight: 600;
+        color: #0062FF;
+        border: 2px solid #0062FF;
+        outline-color: #0062FF;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+}

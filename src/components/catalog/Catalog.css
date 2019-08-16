@@ -1,0 +1,35 @@
+.catalog{
+    margin-bottom: 10px;
+}
+
+.catalog .ibm-card{
+    background: #edf4ff !important;
+}
+
+.catalog .ibm-card .ibm-card__content{
+    margin-top: -5px;
+}
+
+.catalog-top-logo{
+    margin-top: 8px;
+}
+
+.catalog-top{
+    border-bottom: 2px solid #0062ff;
+    padding-bottom: 30px;
+}
+
+.catalog-top h2{
+    font-weight: 600;
+}
+
+.catalog-container{
+    width: 90% !important;
+    margin: auto auto !important;
+}
+
+@media only screen and (max-width: 671px) {
+    .catalog-top-logo{
+        display: none;
+    }
+}

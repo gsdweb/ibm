@@ -1,0 +1,21 @@
+.card-detail h5{
+    font-weight:500;
+    color: #888;
+}
+
+.card-detail p{
+    font-size: 0.8em;
+    color: #888;
+}
+
+.card-detail input{
+    width: 150px;
+}
+
+.card-detail .ibm-btn-pri{
+    width:100%;
+    text-align: left;
+    background-color: #0062FF;
+    border-color: #0062FF;
+    outline-color: #0062FF;
+}
